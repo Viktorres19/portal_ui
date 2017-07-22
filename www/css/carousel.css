@@ -1,0 +1,68 @@
+.carousel {
+width:862px;
+  float:right;
+  margin-top:500px;
+  margin-bottom:76px;
+}
+		.carousel>.gallery>img {
+		  width: 322px;
+		  height: 241px;
+		  display: block;
+		}
+.arrow {
+  padding: 0;
+  border: none;
+  display: block;
+}
+.prev{
+	float:left;
+  background:#f4f4f4;  
+  padding:98px 40px;  
+}
+.arrow:focus {
+  outline: none;
+}
+.arrow:hover {
+  background: #72bcec;
+  cursor: pointer;
+}
+.next {
+  float:left;  
+  background:#f4f4f4;  
+  padding:98px 40px;
+}
+.gallery {
+  width: 644px;
+  height:241px;
+  overflow: hidden;
+  float:left;
+}
+.gallery ul {
+  height: 241px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 1ms;
+  font-size: 0;
+}
+.gallery li {
+  display: inline-block;
+}
+
+.slidelement{
+	position:relative;
+}
+	.carousel .gallery .slidelement .like{
+		position:absolute; box-sizing:border-box; bottom:0; background: rgba(201, 202, 200, 0.4); width:100%; padding:18px 120px;
+	} 
+		.carousel .gallery .slidelement .like p{
+			 float:left; 
+		}		
+			.slidelement .like p a{
+				color:#ffffff; font-size:14px; margin-left:10px; margin-top:5px;
+			}		
+
+
+	
+
+
